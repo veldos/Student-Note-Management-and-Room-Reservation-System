@@ -1,0 +1,1 @@
+<p>Une erreur a ete declanche : <?= $error ?></p>
