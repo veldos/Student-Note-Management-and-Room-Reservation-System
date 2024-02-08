@@ -1,0 +1,105 @@
+body {
+    padding: 20px;
+    margin: 10px;
+    color: blue;
+    font-family: monospace;
+    background-image: url(../image/bg2.avif);
+    background-attachment: fixed;
+}
+
+p {
+    font-weight: bold;
+}
+
+div h1,
+div h4 {
+    color: rgb(68, 67, 67);
+    padding-left: 100px;
+}
+
+div pre {
+    display: inline-block;
+
+}
+
+.Heading {
+    position: relative;
+}
+
+div img {
+    width: 60px;
+    position: absolute;
+    border-radius: 30px;
+    left: 20px;
+    bottom: 0px;
+}
+
+#date {
+    padding: 4px;
+    color: #FFF;
+    background-color: rgb(81, 75, 165);
+    height: 25px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.title {
+    color: rgb(26, 26, 107);
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.list li {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+}
+
+.list a::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #009688;
+    left: -7px;
+    bottom: 2px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+
+hr {
+    height: 1px;
+    background-color: rgb(81, 75, 165);
+}
+
+.copy,
+.copy a {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(81, 75, 165);
+    text-decoration: none;
+    position: relative;
+}
+
+
+.copy a::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(81, 75, 165);
+    left: -7px;
+    bottom: 2px;
+}

@@ -1,0 +1,37 @@
+form {
+    width: 550px;
+    padding: 10px;
+}
+
+.my-form-label {
+    display: flex;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.my-form-input,
+.my-form-label {
+    display: flex;
+    margin: 5px;
+    width: 230px;
+}
+
+form select {
+    margin: 6px;
+}
+
+.my-form-button {
+    padding: 3px;
+    margin: 4px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+}
+
+form div {
+    position: absolute;
+    left: 330px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+
